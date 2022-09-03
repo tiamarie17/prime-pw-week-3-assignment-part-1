@@ -9,11 +9,12 @@ console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
 
+let myFavoriteFoods = ['pumpkinPie', 'chocolateIceCream', 'blueberries', 'cheeseCake'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
 
-
+console.log('My favorite foods are:', myFavoriteFoods);
 
 // 2. Array.length - tells you how many items are in the array
 console.log('--- 2. Length of an array ---');
@@ -22,6 +23,8 @@ console.log('--- 2. Length of an array ---');
 console.log('Number of animals:', animalArray.length);
 
 // 2.a. TODO: Log to the console the number of foods in your array
+
+console.log('Number of favorite foods', myFavoriteFoods.length);
 
 
 // 3. Accessing array items
