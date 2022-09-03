@@ -9,7 +9,7 @@ console.log('Animals are: ', animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
 
-let myFavoriteFoods = ['pumpkinPie', 'chocolateIceCream', 'blueberries', 'cheeseCake'];
+let myFavoriteFoods = ['pumpkin pie', 'chocolate ice cream', 'blueberries', 'cheese cake'];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar 
 //      to the example above
@@ -108,8 +108,16 @@ console.log(myFavoriteFoods);
 //     putting the word "and" between each item.
 //     eg "tacos and pizza and pasta". Log the string.
 
+myFavoriteFoods = myFavoriteFoods.join(' and ');
+console.log(myFavoriteFoods);
+
+
 // 4.h (STRETCH) TODO: Make a new array that combines 
 //     the favorite foods array with the animals array.
 //     Then log the new array.
 //     It should look something like:
 //     ['pizza', 'pasta', 'fish', 'cat', 'bird', 'dog']
+
+let newArray = animalArray.concat(myFavoriteFoods);
+console.log(newArray);
+
